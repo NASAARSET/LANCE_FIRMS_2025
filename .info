@@ -4,5 +4,5 @@
 	Contains common patterns by default
 .info
 	Generates these comments in the tree command when --info is set
-/code/standard_logging.py
+/code/python/standard_logging.py
 	A general purpose logging handler and formatter for Python
