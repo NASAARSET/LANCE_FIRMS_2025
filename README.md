@@ -1,62 +1,29 @@
-# Template
+# ARSET Advanced NASA Earth Observations and Tools for Active Fire, Smoke, and Post-Fire Monitoring
 
-## This is a template repository created by Justin Fain to better standardize the layout of ARSET repositories.
+Materials for [ARSET Advanced NASA Earth Observations and Tools for Active Fire, Smoke, and Post-Fire Monitoring](https://www.earthdata.nasa.gov/learn/trainings/advanced-nasa-earth-observations-tools-active-fire-smoke-post-fire-monitoring). This repository contains materials for Session 2.
 
-> [!WARNING]
-> If you are pushing an existing local repository you don't need to worry about any of this. Simply force push on your first commit and/or delete/modify any of the template files as you please. See the rest of this readme for a definition of the other files in the template.
+## ⚠️ PREREQUISTE (REQUIRED) ‼️
 
-***
+It's **required** that you go on the [FIRMS API](https://firms.modaps.eosdis.nasa.gov/api/map_key/) site to register for a MapKey (API Key) prior to using the notebook provided below. 
 
-### For new users:
+## Homework / Assignments 
 
-The top-level directory where this readme is located contains OS-specific .gitignore files to be used as needed as well as one general-purpose default.gitignore which can be used to protect some of the subdirectory contents from getting pushed to the public repo from your local copy.
+The homework for this part of the training is at the bottom of the notebook included for this training. The notebook for this training is linked below. 
 
-Include and exclude files/directories as needed. The default.gitignore is only meant as a hedge against accidentally pushing data, notes, powerpoints, etc. that aren't meant to be part of the public-facing repository.
+## Session 2 Materials:
 
-The "code" subdirectory contains language-specific subdirectories which in turn contain the standard .gitignore files for each language.
+| Lecture Topic | Interactive Link | 
+|---|---|
+| **Session 2 Coding Notebook** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NASAARSET/LANCE_FIRMS_2025/blob/main/session_2/AdvNotebook.ipynb) |
 
-The directory at "code/python" also contains a boilerplate logging handler which I have found to be incredibly useful for providing python scripts with a more interactive messaging system at the command line.
 
-The hidden files .info and .meta are meant to be managed by the authors. The .meta file is meant for your own record keeping.
 
-***
+<br>
+<br>
+<br>
+<br>
 
-The directory tree of this repository is as follows (ignoring the .gitkeep placeholders):
 
-```
-.
-├── .gitignore
-│    { Contains common patterns by default
-├── .info
-│    { Generates these comments in the tree command when --info is set
-├── .meta
-│    { Contains project-level author and creation time metadata by default
-├── code
-│   ├── c
-│   │   └── .gitignore
-│   ├── cpp
-│   │   └── .gitignore
-│   ├── python
-│   │   ├── .gitignore
-│   │   └── standard_logging.py
-│   ├── r
-│   │   └── .gitignore
-│   └── shell
-├── data
-│   ├── rast
-│   ├── tabs
-│   └── vect
-├── default.gitignore
-├── docs
-├── grfx
-├── macOS.gitignore
-├── mkdn
-│   ├── edit
-│   └── rend
-├── outs
-├── pubs
-├── README.md
-├── temp
-└── windows.gitignore
+## Additional Resources
 
-```
+[Click this link to get to a ReadMe with additional resources](./AdditionalResources.md). 
